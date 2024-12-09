@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+#nome-aluno {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+#ru-aluno {
+    font-size: .8em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    color: gray;
+}
+#titulo-pagina {
+    font-size: 1.5em;
+    margin: 1.5em 0;
+}
+#texto-pagina {
+    font-size: 1.2em;
+    margin: 0 1em;
+}
+#voltar-btn {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.button-container > a, .button-container > button {
+    padding: 1em;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+.button-container > a:hover, .button-container > button:hover {
+    background-color: darkcyan;
+}
+.lista-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 1em; */
+    align-self: start;
+    margin: 1em;
+}
+.titulo-lista {
+    font-size: 1.2em;
+    margin: .3em 0;
+}
+.lista {
+    margin: .3em 0;
+}
+.lista > li > h4, .lista > li > h5, .lista > li > h6 {
+    margin: .2em 0;
+}
+#formacao-academica > li {
+    margin-bottom: 1em;
+}
+#formulario-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1em;
+    width: 100%;
+}
+#formulario-contato > label {
+    margin: .5em 0;
+}
+#formulario-contato > input, #formulario-contato > textarea {
+    margin: .3em 0;
+    padding: .5em;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 95vw;
+}
+#formulario-contato > .button-container {
+    margin-top: 1em;
+}
+img {
+    width: 50vw;
+    margin-top: .8em;
+}
